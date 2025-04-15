@@ -10,7 +10,6 @@ import traceback
 
 
 # 注册插件
-@register(name="Nahida", description="Hello Nahida", version="0.1", author="RockChinQ")
 class NahidaPlugin(BasePlugin):
 
     images_urls: list[str] = []
